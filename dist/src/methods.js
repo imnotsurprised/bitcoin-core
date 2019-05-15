@@ -545,6 +545,9 @@ var _default = {
   },
   sendRawTransaction: {
     category: 'rawtransactions',
+    features: {
+      multiwallet: '>=0.15.0'
+    },
     version: '>=0.7.0'
   },
   sendToAddress: {
@@ -606,6 +609,13 @@ var _default = {
       }
     },
     version: '>=0.7.0'
+  },
+  signRawTransactionWithWallet: {
+    category: 'rawtransactions',
+    features: {
+      multiwallet: '>=0.15.0'
+    },
+    version: '>=0.12.0'
   },
   stop: {
     category: 'control',
